@@ -8,7 +8,7 @@ version](http://www.r-pkg.org/badges/version/Rtsne)](https://cran.r-project.org/
 [![CRAN mirror
 downloads](http://cranlogs.r-pkg.org/badges/Rtsne)](https://cran.r-project.org/package=Rtsne/)
 
-# R wrapper for Van der Maaten’s Barnes-Hut implementation of t-Distributed Stochastic Neighbor Embedding
+# R wrapper for Van der Maaten’s Barnes-Hut implementation of t-Distributed Stochastic Neighbor Embedding with extra P matrix
 
 ## Installation
 
@@ -22,7 +22,7 @@ To install the latest version from the github repository, use:
 
 ``` r
 if(!require(devtools)) install.packages("devtools") # If not already installed
-devtools::install_github("jkrijthe/Rtsne")
+devtools::install_github("zhexuandliu/RtsnewithP")
 ```
 
 ## Usage
